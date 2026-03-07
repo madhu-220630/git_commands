@@ -102,4 +102,23 @@ git status
 screenshot proof:
 ![user screenshot](screenshots/git_status.png)
 
-## 2.
+## 2.GIT LOG
+
+SYNTAX:
+GIT LOG
+
+purpose:
+displays complete commit history of the repository.
+It shows:
+commit id
+author name
+date
+commit message
+
+
+Example:
+git log
+
+screenshot proof:
+![user screenshot](screenshots/git_log.png)
+
