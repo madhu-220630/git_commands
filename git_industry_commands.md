@@ -217,9 +217,6 @@ checkouts
 Example:
 git reflog
 
-Screenshot proof:
-![user screenshot](screenshots/git_reflog.png)
-
 ## 10. GIT SHORTLOG
 
 Syntax:
@@ -232,6 +229,6 @@ Example:
 git shortlog
 
 Screenshot proof:
-![user screenshot](screenshots/git_shortlog.png)
+![user screenshot](screenshots/git_reflog_shortlog.png)
 
 
