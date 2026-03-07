@@ -1,3 +1,5 @@
+## 1.GIT CONFIGURATION COMMANDS
+
 
 ## 1.git config --user.name
 
@@ -77,4 +79,27 @@ Removes a specific configuration email..
 screenshot proof:
 ![username screenshot](screenshots/username.png)
 
+## 3.REPOSITORY STATUS & INSPECTION
 
+## 1. git status
+syntax:
+git status
+
+purpose:
+
+Shows the current status of your repository.
+It tells:
+
+Which files are modified
+
+Which files are staged
+
+Which files are untracked
+
+example:
+git status
+
+screenshot proof:
+![gitstatus screenshot](screenshots/git status.png)
+
+## 2.
