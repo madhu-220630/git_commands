@@ -152,7 +152,7 @@ Screenshot proof:
 ## 5.GIT SHOW
 
 Syntax:
-git show<commit-id>
+git show
 
 Purpose:
 shows detailed information about a specific commi,including:
@@ -162,7 +162,7 @@ commit message
 code changes
 
 Example:
-git show a34f67b
+git show 
 
 Screenshot proof:
 ![user screenshot](screenshots/git_show.png)
@@ -177,8 +177,6 @@ Shows a difference between modified files and the last commit
 Example:
 git diff
 
-Screenshot proof:
-![user screenshot](screenshots/gitdiff.png)
 
 ## 7. GIT DIFF --STAGED
 Syntax:
@@ -190,8 +188,6 @@ Shows the difference between staged files and the last commit.
 Example:
 git dif --staged
 
-Screenshot proof:
-![user screenshot](screenshots/diff_staged.png)
 
 ## 8.GIT BLAME
 
@@ -205,7 +201,7 @@ Example:
 git blame<index.html>
 
 Screenshot proof:
-![user screenshot](screenshots/git_blame.png)
+![user screenshot](screenshots/git_diff_blame.png)
 
 ## 9.GIT REFLOG
 
