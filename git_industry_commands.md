@@ -100,6 +100,6 @@ example:
 git status
 
 screenshot proof:
-![gitstatus screenshot](screenshots/git_status.png)
+![user screenshot](screenshots/git_status.png)
 
 ## 2.
