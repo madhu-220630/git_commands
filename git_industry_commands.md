@@ -122,3 +122,120 @@ git log
 screenshot proof:
 ![user screenshot](screenshots/git_log.png)
 
+
+## 3.GIT LOG --ONELINE
+
+
+Syntax:
+git log --oneline
+
+purpose:
+shows commit history in short form(one line per commit)
+
+Example:
+fit log --oneline
+
+
+## 4. GIT LOG --GRAPH
+Syntax:
+git log --graph
+
+Purpose:
+Displays the commit history in a graphical branch structure
+
+Example:
+git log --graph
+
+Screenshot proof:
+![user screenshot](screenshots/git_log_oneline_graph.png)
+
+## 5.GIT SHOW
+
+Syntax:
+git show<commit-id>
+
+Purpose:
+shows detailed information about a specific commi,including:
+author
+date
+commit message
+code changes
+
+Example:
+git show a34f67b
+
+Screenshot proof:
+![user screenshot](screenshots/git_show.png)
+
+## 6.GIT DIFF
+Syntax:
+git diff
+
+Purpose:
+Shows a difference between modified files and the last commit 
+
+Example:
+git diff
+
+Screenshot proof:
+![user screenshot](screenshots/gitdiff.png)
+
+## 7. GIT DIFF --STAGED
+Syntax:
+git diff --staged
+
+Purpose:
+Shows the difference between staged files and the last commit.
+
+Example:
+git dif --staged
+
+Screenshot proof:
+![user screenshot](screenshots/diff_staged.png)
+
+## 8.GIT BLAME
+
+Syntax:
+git blame<file-name>
+
+Purpose:
+Shows who lst modofied each line in a file.
+
+Example:
+git blame<index.html>
+
+Screenshot proof:
+![user screenshot](screenshots/git_blame.png)
+
+## 9.GIT REFLOG
+
+Syntax:
+git reflog
+
+Purpose:
+Shows all actions performed in the repository such as :
+Commits
+results
+checkouts
+
+Example:
+git reflog
+
+Screenshot proof:
+![user screenshot](screenshots/git_reflog.png)
+
+## 10. GIT SHORTLOG
+
+Syntax:
+git shortlog
+
+Purpose:
+Shows summary of commits grouped by author.
+
+Example:
+git shortlog
+
+Screenshot proof:
+![user screenshot](screenshots/git_shortlog.png)
+
+
